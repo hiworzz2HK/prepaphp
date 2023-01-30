@@ -20,4 +20,3 @@ console.log("ok");
 logPic.addEventListener('click', openLog);
 popup.addEventListener('click', closeLog);
 connectBox.addEventListener('click', stayOpen, true);
-
