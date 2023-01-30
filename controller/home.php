@@ -33,7 +33,7 @@
         </div>
         <div class="title">
             <h1>Silence, on lit!</h1>
-            <h3>Bibliothèque de l'E2C</h3>
+            <h3>Bienvenue à l'E2C</h3>
         </div>
         <div class="user">
             <p>à coder</p>
