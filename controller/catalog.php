@@ -1,4 +1,5 @@
 <?php
+ require("../model/model.php");
     $titrePage = "choisissez votre livre!";
     $titreOnglet= "Catalogue";
     $menu = [
@@ -6,6 +7,9 @@
         ["label"=>"Catalogue", "lien"=>"../controller/catalog.php"]/*,
         ["label"=>"Mon compte", "lien"=>"../controller/account.php"]*/
     ];
+    
+    $liendb = connectDB();
+    $listeLivres = getBooksList($lienbdd);
 
     require("../view/catalogView.php");
 ?>
